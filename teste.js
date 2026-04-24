@@ -11,9 +11,9 @@ let a = (50 * 2) - 30;
 economias += a;
 console.log("Valor final: " + economias)
 
-let temp = 26;
+let temp = 32;
 console.log("Está quente? ", (temp > 30));
 
 let temingresso = true;
-let maiordeidade = 20;
-console.log("Pode entrar no show?", (temingresso >=18) && maiordeidade)
+let maiordeidade = 18;
+console.log("Pode entrar no show?", temingresso && (maiordeidade >=18))
