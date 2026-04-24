@@ -7,5 +7,13 @@ let media = (nota1 + nota2) / 2;
 console.log("A média do aluno é: "+media)
 
 let economias = 0;
-economias += (50 * 2) - 30;
+let a = (50 * 2) - 30;
+economias += a;
 console.log("Valor final: " + economias)
+
+let temp = 26;
+console.log("Está quente? ", (temp > 30));
+
+let temingresso = true;
+let maiordeidade = 20;
+console.log("Pode entrar no show?", (temingresso >=18) && maiordeidade)
