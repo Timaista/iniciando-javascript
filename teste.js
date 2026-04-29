@@ -13,7 +13,3 @@ console.log("Valor final: " + economias)
 
 let temp = 32;
 console.log("Está quente? ", (temp > 30));
-
-let temingresso = true;
-let maiordeidade = 18;
-console.log("Pode entrar no show?", temingresso && (maiordeidade >=18))
