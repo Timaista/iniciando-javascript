@@ -7,8 +7,9 @@ let media = (nota1 + nota2) / 2;
 console.log("A média do aluno é: "+media)
 
 let economias = 0;
-let a = (50 * 2) - 30;
-economias += a;
+economias += 50;
+economias *= 2;
+economias -= 30;
 console.log("Valor final: " + economias)
 
 let temp = 32;
