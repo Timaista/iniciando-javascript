@@ -14,3 +14,14 @@ console.log("Valor final: " + economias)
 
 let temp = 32;
 console.log("Está quente? ", (temp > 30));
+
+let pontuacao = 100
+let resultado = pontuacao >= 100 ? "Você ganhou um prêmio!" : "Tente novamente"
+console.log(resultado)
+
+let carro = {
+    modelo: "Porsche Boxster S 3.4 310cv",
+    ano: 2009,
+    automatico: true,
+}
+console.log(`O carro modelo ${carro.modelo} do ano ${carro.ano} é automático?`, carro.automatico)
