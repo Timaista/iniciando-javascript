@@ -38,3 +38,6 @@ let carro = {
     automatico: true,
 }
 console.log(`O carro modelo ${carro.modelo} do ano ${carro.ano} é automático?`, carro.automatico)
+
+let linguagens = ["GML", "javascript", "C#"]
+console.log("Minhas linguagens favoritas são:",linguagens[0]+",",linguagens[1],"e",linguagens[2])
