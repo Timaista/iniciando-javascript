@@ -40,4 +40,41 @@ let carro = {
 console.log(`O carro modelo ${carro.modelo} do ano ${carro.ano} é automático?`, carro.automatico)
 
 let linguagens = ["GML", "javascript", "C#"]
-console.log("Minhas linguagens favoritas são:",linguagens[0]+",",linguagens[1],"e",linguagens[2])
+console.log(`Minhas linguagens favoritas são: ${linguagens[0]}, ${linguagens[1]} e ${linguagens[2]}`)
+
+let contagem = 5
+while (contagem >=1) {
+    console.log(contagem)
+    contagem--
+}
+console.log("Contagem regressiva encerrada.")
+
+for (let i = 0; i <=10; i += 2) {
+    console.log(i)
+}
+
+cursos = ['Curso de inglês', 'Curso de redação', 'Curso de programação']
+console.log('Estou matriculado em:')
+for (let curso of cursos) {
+    console.log(curso)
+}
+
+filme = {
+    titulo: 'Barquinhos',
+    ano: 2011,
+    diretor: 'Cristiano Valente'
+}
+for (let inf in filme) {
+    console.log(`${inf}: ${filme[inf]}`)
+}
+
+function calcularMedia(a, b, c) {
+    return (a + b + c) / 3
+}
+let media = calcularMedia(10, 8, 7.5)
+console.log('A média do aluno é:', media)
+
+const desconto = (preco, percentual) => {
+    return (preco * (preco - percentual)) / 100
+}
+console.log(`O preço atualizado é de ${desconto(100, 20)} reais`)
