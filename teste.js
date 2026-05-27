@@ -71,10 +71,15 @@ for (let inf in filme) {
 }
 
 function calcularMedia(a, b, c) {
-    return (a + b + c) / 3
+    return (a + b + c) / calcularMedia.length
 }
 let media = calcularMedia(10, 8, 7.5)
-console.log('A média do aluno é:', media)
+console.log('A média do aluno é:', media.toFixed(2))
+
+const soma = function(a, b, c) {
+    return a + b + c
+}
+console.log(soma(3, 2, 5))
 
 const desconto = (preco, percentual) => {
     return (preco * (preco - percentual)) / 100
